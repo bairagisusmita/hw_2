@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HOMEWORK-2</title>     
+</head>
+<body>
+	<h1>HTML tag references</h1>
+	<h2>What is html5?</h2>
+	<p>HTML5 is the latest standard of Hypertext Markup Language, the code that describes the structure and presentation of web pages.</p>
+	<h3>How does it work?</h3>
+	<p>HTML works by telling the internet browser how to display the page. First, the author uses a basic text editor on the computer (such as TextEdit for Mac) to create their HTML document. The author then fills their HTML document with a series of HTML elements, using HTML tags.</p>
+	<h4>Why use html?</h4>
+<p>HTML is the language for describing the structure of Web pages. HTML gives authors the means to: Publish online documents with headings, text, tables, lists, photos, etc. Retrieve online information via hypertext links, at the click of a button.</p>
+	<h5><del>Ii is a programming language.</del> Markup Language</h5>
+	<article>
+		<!--this is a list-->
+	<h3>The unordered list</h3>
+	<ul>
+		<li>list item 1</li>
+		<li>list item 2</li>
+		<li>list item 3</li>
+    </ul>
+    <h4>The ordered list</h4>
+    <ol>
+    	<li value="1">Tea</li>
+		<li>Juice</li>
+		<li>Burger</li>
+    </ol>
+    <hr>
+    <!--style-->
+    <style>
+    	table,th,td{
+    		border:1px solid black;
+    	}
+    		image{
+    			border: solid black;
+    	}
+    </style>
+    <h2> The table element</h2>
+    <table>
+    	<caption><b>Data Collection</b></caption>
+    	<colgroup>
+    		<col span="1" style="background-color: yellowgreen;">
+    		<col span="2" style="background-color: lightyellow;">
+    		<col span="" style="background-color: revert-layer;">
+    	</colgroup>
+    	<thead>
+    		<tr>
+    			<th>Name</th>
+    			<th>Age</th>
+    			<th>Email</th>
+    			<th>City</th>
+    		</tr>
+    		<tr>
+    			<td>Maruf</td>
+    			<td>34</td>
+    			<td>maruf555@yahoo.com</td>
+    			<td>Dhaka</td>
+    		</tr>
+    		<tr>
+    			<td>Erikha</td>
+    			<td>30</td>
+    			<td>erika789@hotmail.com</td>
+    			<td>Gothenberg</td>
+    		</tr>
+    	</thead>
+    </table>
+</article>
+	<br>
+	<hr>
+	<form action="process.php" method="POST">
+<div>
+	<lebel>First Name</lebel>
+	<input type="text" name="First-Name" placeholder="Enter first name">
+</div>
+<div>
+	<lebel>Last Name</lebel>
+	<input type="text" name="last-Name" placeholder="Enter surname">
+</div>
+<div>
+	<lebel>Email</lebel>
+	<input type="email" name="email">
+</div>
+<div>
+	<lebel>Address</lebel>
+	<input type="text" name="address">
+</div>
+<div>
+	<lebel>Message</lebel>
+	<textarea name="message" ></textarea>
+</div>
+<div>
+	<lebel>Gender</lebel>
+	<select name="gender" >
+	<option value="male">Male</option>
+	<option value="female">Female</option>
+	<option value="other">Other</option>
+</select>
+</div>
+<div>
+    <lebel>Age</lebel>
+	<input type="number" name="age" value="">
+</div>
+<div>
+    <lebel>Birthday</lebel>
+	<input type="date" name="birthyday">
+
+</div>
+<br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+<!--button-->
+	<button>click me</button>
+	<br>
+	<div>
+	<level for="file"> HW completion rate:</level>
+	<progress id="file" value="50"max="100">50%</progress>
+</div>
+	<h2>The audio file</h2>
+	<audio controls>
+		<source src="audio/piano.mp3" type="audio/mpeg">
+	</audio>
+	<br>
+	<nav>
+		<a href="/html/">HTML</a>
+		<a href="/css/">CSS</a>
+		<a href="/js/">JavaScript</a>
+	</nav>
+	<h2>Beauty of nature</h2>
+	<figure>
+	<img src="images/flower.jpg" alt="flower" width="400" height="auto"align="justify">
+	<figcaption>Fig.1- White flower.</figcaption>
+</figure>
+	<style>
+		 p{
+			color: orangered;
+			text-align: justify;
+		}
+		h1{
+		   color:red;
+		   text-align: center;
+		}
+		h2{
+			color: navy;
+		}
+		aside{
+			width:device-width;
+			font-style:italic;
+			background-color:lightgray;
+		}
+	</style>
+
+	<aside>
+	<p><b>"A flower cannot blossom without sunshine, and a man cannot live without love."</b>-<em>Max Muller.</em> Flower needsH<sub>2</sub>O,soil,O<sub>2</sub>.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+</aside>
+<br>
+<h2>Snowy Trees</h2>
+	<video width="600" height="auto" controls>
+		<source src="video/snowfall.mp4" type="video/mp4">
+		<source src="snowfall.ogg" type="video/ogg">	
+	</video>
+	<br>
+	<address>
+		<b>Contact</b><br>
+		Name: Susmita Bairagi<br>
+		Permanent address:Khulna, Bangladesh.<br>
+		Present address:
+		Astronomgatam 35, 41555<br>Göteborg,Sweden.<br>
+		E-post:<a href="mailto:susmita96004@gmail.com">susmita96004@gmail.com</a>
+		
+	</address>
+  <p> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2128.465815545058!2d12.05718199999999!3d57.75949400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff5c9a171b9d1%3A0xc43e73c59df8a436!2sAstronomgatan!5e0!3m2!1sen!2sse!4v1680721211251!5m2!1sen!2sse" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+  <abbr title="HyperText Markup Language"><mark>html</mark></abbr> is a markup language.Read more about html. Go to this website.<br>
+  <a href="https://www.w3schools.com"><strong>Visit W3schools.com!</strong></a>
+  <div style="margin_top:500px"></div>
+</body>
+	</html>
